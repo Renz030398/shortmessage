@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>RENZ</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("ENTER YOUR'RE NAME :)");
+    
+    if(Name == "" || Name == null) {
+    } else {
+    alert("Hi " + Name + ", This is My Short Message For You :).");
+    alert(" LAGAY MO SA STICKY NOTES MO ITO AH! HAHAHAHA."); 
+    alert(" As the new year blossoms."); 
+    alert(" May the journey of your life."); 
+    alert(" Be fragrant with new opportunities."); 
+    alert(" Your Days be bright with new hopes"); 
+    alert(" And your heart be happy with love!"); 
+    alert(" Happy New Year"); 
+    alert(" AND ALWAYS REMEMBER YOU'RE SPECIAL! <3"); 
+
+
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=350
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=350
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=350
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> Hi! HAPPY NEW YEAR!</h1>
+<h1> I HAVE A SHORT MESSAGE FOR YOU</h1>
+<h1> BEFORE THE YEAR ENDS!</h1>
+<img src="https://tenor.com/view/countdown-new-year-happy-fireworks-voranee-gif-15870909.gif" height="180" />
+
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" CLICK HERE " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+
+</div>
+
+</body>
+</html>
